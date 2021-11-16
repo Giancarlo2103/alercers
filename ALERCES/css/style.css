@@ -231,42 +231,50 @@ line-height: 20px;
 }
 
 .sec_6{
-    background: #053B45;
-    max-width: 100% !important;
-    height: 494px;
+  height:490px;
+  background: #053B45;
 }
 
-.text_footer{
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-  padding-top: 20px;
-  color: white;
-  position: absolute;
-  left: 117px;
-  width: 35%!important;
-}
-
-.miembro{
+.text_6 .logo1{
     position: relative;
-    left: 298px;
-    top: -129px;
+    left: 102px;
+    padding-top: 60px;
+    width: 20%;
+    height: auto;
+}
 
-} 
-.pic_1{
-  position: relative;
-  left: 298px;
-  top: -129px;
-
-} 
-
-.contac_1{
-  display: flex;
-  justify-content: center;
-  padding-top: 21px;
+.logo_text1{
+    margin-left: 99px;
+    padding-top: 18px;
     color: white;
-    font-size: 21px;
-} 
+    font-size: 20px;
+}
+
+.logo__1{
+  position: relative;
+  top: 70px;
+  right: 111px;
+}
+.logo__2{
+  position: relative;
+  top: 65px;
+  right: 131px;
+}
+
+
+.reser{
+    position: relative;
+    top: 136px;
+    margin-left: 96px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.contact{
+  position: relative;
+  top: -115px;
+}
+
+
