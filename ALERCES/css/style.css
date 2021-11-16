@@ -1,0 +1,272 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/*HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+*{
+  line-height: 1;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+ 
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ /*fin del reset*/
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap'); 
+
+  
+  .nav {
+    padding:  0;
+    background-color:white;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 400;
+    height: 75px;
+    box-shadow: 8px 7px 33px #727272;
+    
+  }
+  
+  .nav-space {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header_logo {
+    position: relative;
+    left: 3%;
+    top: 10px;
+  }
+
+  
+ .menu{
+    position: relative;
+    top: 27px;
+    right: 3%;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.2308px;
+    line-height: 20px;
+  }
+
+  .menu a {
+    color: #9E9E9E;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 1rem;
+  }
+
+  .menu .btn-gray-1{
+    background: #01F2D3;
+    border-radius: 19px;
+    width: auto;
+    height: auto;
+    color: #053B45;
+
+  }
+
+
+  
+
+/*BANNER-------------------------------------------------*/
+
+
+
+.parallax {
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .header{
+    background-image: url("../img/fondo.png");
+    height: 100vh;
+    }
+
+
+
+.logo_1  {
+    text-align: center;
+    position: relative;
+    top: 108px; 
+    width: 100% !important; 
+    letter-spacing: 0.16px;
+
+}
+
+
+.text_1{
+    color: white;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+
+
+
+.text_1 p{
+    margin-bottom: 29px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.text_1 strong{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text_2 span{
+    position: relative;
+    top: -15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.text_3 p{
+    margin-top: 29px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.sec_3{
+    width: 100% !important;
+    background-color: white;
+    color: #404040;
+    font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.title_1{
+    text-align: center;
+    margin-top: 118px;
+    font-size: 25px;
+    letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+.title_1 strong{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: #aad001;
+}
+
+.sec_4{
+  text-align: center;  
+  padding-top: 75px;
+  padding-bottom: 10%;
+}
+
+.sec_4 .point{
+  padding-bottom: 157px;
+  cursor: pointer;
+  width: 26px;
+
+}
+
+.sec_5{
+  background-color: #f7f4f0;
+  max-width: 100% !important;
+  height: 490px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.967806px;
+  text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+    position: relative;
+    padding-top: 5%;
+}
+
+.sec_5 .eco{
+  width: 245px;
+}
+.eco .eco_1{
+  height: 151px;
+}
+
+.sec_6{
+    background: #053B45;
+    max-width: 100% !important;
+    height: 494px;
+}
+
+.text_footer{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+  padding-top: 20px;
+  color: white;
+  position: absolute;
+  left: 117px;
+  width: 35%!important;
+}
+
+.miembro{
+    position: relative;
+    left: 298px;
+    top: -129px;
+
+} 
+.pic_1{
+  position: relative;
+  left: 298px;
+  top: -129px;
+
+} 
+
+.contac_1{
+  display: flex;
+  justify-content: center;
+  padding-top: 21px;
+    color: white;
+    font-size: 21px;
+} 
