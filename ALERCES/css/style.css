@@ -27,7 +27,8 @@ footer, header, hgroup, menu, nav, section {
 *{
   line-height: 1;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif !important;
+  text-decoration: none;
+  font-family: "NotoSansJP-Regular-Alphabetic",sans-serif;
  
 }
 ol, ul {
@@ -49,17 +50,12 @@ table {
 
 
  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap'); 
-
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
   
   .nav {
-    padding:  0;
-    background-color:white;
-    position:fixed;
-    top:0;
-    width: 100%;
-    z-index: 400;
-    height: 75px;
-    box-shadow: 8px 7px 33px #0000000f
+    background: #fff;
+    -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%)
     
   }
 
@@ -71,45 +67,71 @@ table {
 }
 
   
-  .nav-space {
+.nav-space{
+  width:100%;
+  max-width:1280px;
+  padding:0 20px;
+  margin:auto;
+  height: 71px;
+}
+  
+  
+
+.header_logo{
+position: relative;
+    right: 273px;
+    top: 8px;
+}
+
+
+.header_menu{
+display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-  }
-  
-  .header_logo {
-    position: relative;
-    left: 3%;
-    top: 10px;
-  }
-
-  
- .menu{
-    position: relative;
-    top: 27px;
-    right: 19%;
-    font-family: 'Poppins', sans-serif !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10.2308px;
-    line-height: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "NotoSansJP-Regular-Alphabetic",sans-serif;
+ 
   }
 
-  .menu a {
-    color: #9E9E9E;
-    text-decoration: none;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding: 8px 7px 7px;
+
+  .alc__header__menu{
+    display: flex;
+    justify-content: flex-end;
+    
   }
 
-  .menu .btn-gray-1{
+a{
+  color: #9E9E9E;
+}
+
+
+
+.alc__header__menu .btn{
+
+  align-items: center;
+    text-align: center;
     background: #01F2D3;
-    width: auto;
-    height: auto;
-    color: #053B45;
+    color: #053B45!important;
+    letter-spacing: 0.11692px!important;
+    border-radius: 2.19231px;
+    width: 100%;
+    min-width: 110px;
+    padding: 10px 15px!important;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
 
-  }
 
+
+  .header_menu li{
+        margin-left: 25px;
+    
+      }
 
   
 
