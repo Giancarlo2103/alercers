@@ -59,9 +59,17 @@ table {
     width: 100%;
     z-index: 400;
     height: 75px;
-    box-shadow: 8px 7px 33px #727272;
+    box-shadow: 8px 7px 33px #0000000f
     
   }
+
+
+  #ler{
+    position: relative;
+    left: 287px;
+    top: 15px;
+}
+
   
   .nav-space {
     display: flex;
@@ -78,7 +86,7 @@ table {
  .menu{
     position: relative;
     top: 27px;
-    right: 3%;
+    right: 19%;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
     font-weight: bold;
@@ -91,12 +99,11 @@ table {
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: 500;
-    padding: 1rem;
+    padding: 8px 7px 7px;
   }
 
   .menu .btn-gray-1{
     background: #01F2D3;
-    border-radius: 19px;
     width: auto;
     height: auto;
     color: #053B45;
@@ -116,55 +123,55 @@ table {
   }
   .header{
     background-image: url("../img/fondo.png");
-    height: 100vh;
+    height: 71vh;
     }
 
 
 
 .logo_1  {
-    text-align: center;
-    position: relative;
-    top: 108px; 
-    width: 100% !important; 
-    letter-spacing: 0.16px;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 127px;
 
 }
 
+.logo_1 img {
+  width: 254px;
+  margin-bottom: 20px;
 
-.text_1{
-    color: white;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
+}
+.logo_1 p {
+  letter-spacing: 0.16px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Poppins-Light", sans-serif;
+  text-align: center;
+  margin: 0 0 20px;
+  
+}
+
+.logo_1 h2 {
+  color: white;
+  font-size: 34px;
+  line-height: 40px;
+  font-family: "Poppins-Bold", sans-serif;
+  text-align: center;
+}
+h2{
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+#flecha{
+  width: 41px;
+  margin-top: 39px;
 }
 
 
-
-.text_1 p{
-    margin-bottom: 29px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-}
-.text_1 strong{
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-
-.text_2 span{
-    position: relative;
-    top: -15px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-}
-
-.text_3 p{
-    margin-top: 29px;
-    font-size: 35px;
-    font-weight: bold;
-    color: white;
-}
 
 
 .sec_3{
