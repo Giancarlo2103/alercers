@@ -197,14 +197,74 @@
     padding: 124px;
 }
 
+.alrc__referidos-sec2 {
+    padding: 100px 0 25px;
+}
+
+
+.alrc__referidos-sec2 .alrc__referidos-row {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.alrc__referidos-row h2{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 81.5%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    
+}
+.alrc__referidos-row span{
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 81.5%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #AAD001;
+    
+}
+@media (max-width: 600px){
+.container, .container-sm {
+    max-width: 341px;
+}
+}
+@media (max-width: 1000px){
+    .container, .container-sm {
+        max-width: 500px;
+    }
+    }
+    @media (max-width: 750px){
+        .container, .container-sm {
+            max-width: 361px;
+        }
+        }
+
+        @media (max-width: 600px){
+            .alrc__referidos-sec2 h2 {
+                line-height: 120%;
+                font-size: 23px;
+        }
+
+}
 
 
 
-
-
-
-
-    .alrc__referidos-sec3 .alrc__referidos-row div {
+.alrc__referidos-sec3 .alrc__referidos-row div {
         max-width: 4%;
         width: 100%;
         display: flex;
@@ -267,3 +327,56 @@ font-size: 16px;
  
     }
   }
+
+  .alc_footer{
+    padding-top: 30px;
+    background-color: #053b45;
+    color: #fff;
+}
+  
+.alc_container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.footer{
+    margin-top: 15px;
+    display: flex;
+}
+
+.redes-contacto{
+    margin-left: 24%;
+    margin-right: 24%;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+
+.pie{
+    padding: 25px 0px 22px;
+}
+
+.certificados{
+    display: flex;
+}
+
+
+@media screen and (max-width: 991px){
+    .alc_footer {
+        padding-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+
+.alc__footer .footer .logo-empresa p {
+    text-align: left;
+    line-height: 18px;
+    }
+}
