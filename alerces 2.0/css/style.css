@@ -31,7 +31,42 @@
 
 #alc_bg{
     background-color: white;
+    position: fixed;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
 }
+
+
+
+@media screen and (max-width: 500px){
+    #alc_bg{
+        height: 63px;
+    }
+}
+
+
+@media screen and (max-width: 1279px){
+#alc_bg.js-open-menu {
+    display: block;
+    padding: 0;
+    border: 0;
+    background: transparent;
+
+    }
+}
+
+
+ @media screen and (max-width: 1271px){
+    #alc_menu{
+            display: none;
+    }
+    #alc_bg{
+        height: 63px;
+    }
+
+    } 
+
+
+
 
 
 #alc_logo_a{
@@ -64,7 +99,7 @@
 
 #alc_verde_sec_2{
     text-align: center;
-    padding-top: 58px;    
+    padding-top: 100px;    
     color: white;
     font-family: "Poppins-Light", sans-serif;
     
@@ -79,11 +114,6 @@
             font-family: "Poppins-bold";
         
         }
-        @media (max-width: 1000px){
-            .col{
-                width: 48%;
-            }
-        }
 
         #alc_max{
             max-width: 100%;
@@ -93,6 +123,25 @@
     padding-top: 17px;
 }
 
+@media (max-width: 600px){
+    .alc_arrow{
+        max-width: 24px;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .alc_verde_logo{
+        max-width: 281px;
+    }
+}
+
+/* @media (max-width: 600px){
+    
+    .alrc_referidos-sec2 h2{
+        font-size: 20px;
+
+    } */
 
 
 /* REFERIDOS */
@@ -145,24 +194,14 @@
 .owl-stage-outer{
     display: flex;
     justify-content: center;
-    padding: 53px;
-}
-
-
-.float-start,
-.float-center,
-.float-end{
-    width: 320px;
-    margin: 50px;
+    padding: 124px;
 }
 
 
 
-.alrc__referidos-sec3{
-    background: #F7F4F0;
-    padding: 80px 0;
 
-}
+
+
 
 
     .alrc__referidos-sec3 .alrc__referidos-row div {
@@ -173,15 +212,58 @@
 
 }
 
+.alrc__referidos-sec3 {
+    background: #F7F4F0;
+    padding: 80px 0
+}
+.alrc__referidos-sec3 .alrc__referidos-row{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.alrc__referidos-sec3 .alrc__referidos-row div{
+    max-width: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.alrc__referidos-sec3 .alrc__referidos-row div img {
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+    margin-bottom: 15px
+}
+.alrc__referidos-sec3 .alrc__referidos-row div p{
+    max-width: 147px;
+    width: 100%;
+    margin: auto;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.967806px;
+    text-transform: uppercase;
+    color: #9E9E9E;
+    font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1100px){
+.alrc__referidos-sec3 .alrc__referidos-row div {
+    max-width: 28%;
+    margin-bottom: 15px;
+    }
+  }
+@media (max-width: 650px){
+.alrc__referidos-sec3 .alrc__referidos-row div {
+    max-width: 50%;
+ 
+    }
+  }
+@media (max-width: 650px){
+#alc_verde_sec_2{
+font-size: 16px;
+ 
+    }
+  }
