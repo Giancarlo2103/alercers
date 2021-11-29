@@ -342,19 +342,24 @@ font-size: 16px;
 }
 
 .footer{
-    margin-top: 15px;
+    margin-top: 28px;
     display: flex;
+    font-size: 14px;
 }
 
-.redes-contacto{
-    margin-left: 24%;
-    margin-right: 24%;
+.redes-contacto {
+    margin-left: 10%;
+    
     list-style: none;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 400;
     color: white;
 }
 
+
+.redes-social{
+    margin-left: 14%;
+}
 
 .pie{
     padding: 25px 0px 22px;
@@ -380,3 +385,30 @@ font-size: 16px;
     line-height: 18px;
     }
 }
+
+a{
+    text-decoration: none;
+
+}
+
+.mb-4{
+    margin-bottom: 10px !important;
+}
+.mb-4 span{
+    color: white;
+}
+
+
+.custom-button{
+    min-width: 200px;
+    width: 100%;
+    background: #01F2D3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 0;
+}
+.custom-button a {
+    color: #053B45;
+}
+
+
