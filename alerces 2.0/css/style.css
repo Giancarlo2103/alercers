@@ -115,9 +115,6 @@
         
         }
 
-        #alc_max{
-            max-width: 100%;
-        }
 
 .alc_arrow{
     padding-top: 17px;
@@ -411,4 +408,17 @@ a{
     color: #053B45;
 }
 
+
+@media screen and (max-width: 850px){
+    .footer {
+        max-width: 28%;
+    }
+}
+@media screen and (max-width: 650px){
+    .footer {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
